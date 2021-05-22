@@ -1,0 +1,42 @@
+extends layout.pug
+
+block content
+    main
+        link(rel="stylesheet", href="static/style/dragons-guide.css")
+        div
+            h1 How to use Dragons
+            img(id="dragon-image", src="static/images/dragon-transparent.png")
+            ul
+                li
+                    h3 How Dragons work
+                ul
+                    li Dragons are a high hitpoint air unit that does a good amount of damage(flying Fighter class).
+                    li Dragons have a slow movement speed of 16 (sitting between the balloon and lava hound).
+                    li Dragons attack the closest building of any type and can attack both ground and air.
+                    li Dragons attack is a fire breath that deals splash damage.
+                    li Dragons take up 20 housing space per unit.
+                li
+                    h3 Key points to remember when deploying dragons.
+                ul
+                    li Direction of air sweepers.
+                    li Locations and level of air defences.
+                    li How dragons will move through the base once deployed.
+                    li How to create a path for the dragons like Funnels and the use of spells.
+
+        div(id="wave-strategy-div")
+            h3 The Wave Strategy
+            div(class="grid-container")
+                img(class="wave-image grid-item", id="wave-image-1", src="static/images/wave-step-1.jpg")
+                p(class="grid-item") Step 1. Identify the base Layout Direction of air sweepers. here they are facing toward 4 o’clock(south,southeast) and two air defences are close to the opposite side so we will want to deploy our wave from the opposite side 10 - 11 o’clock(northwest).
+            div(class="grid-container")
+                img(class="wave-image grid-item", id="wave-image-2", src="static/images/wave-step-2.jpg")
+                p(class="grid-item") Step 2. Create pathing. Deploy dragons on the ends of our main deployment line to direct our main force in the direction we want them to go.
+            div(class="grid-container")
+                img(class="wave-image grid-item", id="wave-image-3", src="static/images/wave-step-3.jpg")
+                p(class="grid-item") Step 3. Deploy the Main Force. Deploy the bulk of your dragons in a line so they can sweep through the base evenly.
+            div(class="grid-container")
+                img(class="wave-image grid-item", id="wave-image-4", src="static/images/wave-step-4.jpg")
+                p(class="grid-item") Step 4. Spells. Drop rage and heals to help move the dragons though the base together(if one side is slowing their rate of destruction, drop a rage to even it back up). You can also drop rage down so that the dragons will get to air defences or other defences faster and take it down to reduce damage that they take enabling your dragons to live longer.  note: dropping rages or heals on dragons when they are not taking damage or taking only a little amount will not get the most value out of your spells. Where and when you use your spells can be the difference between a 2 star and a 3 star attack.
+            div(class="grid-container")
+                img(class="wave-image grid-item", id="wave-image-5", src="static/images/wave-step-5.jpg")
+                p(class="grid-item") Step 5. Victory Hopefully it all went well and you still have enough units to finish the last remaining buildings.

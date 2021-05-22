@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 115, 0);
+    color: black;
+    margin-top: 5rem;
+}
+main {
+  margin-top: 5rem;
+}
+.bg-color {
+    background-color: yellow;
+    
+}
+
+.nav-link {
+    color: red;
+}
+
+.nav-link:hover {
+    color: darkred;
+}

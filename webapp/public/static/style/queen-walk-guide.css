@@ -1,0 +1,33 @@
+body {
+            margin: 2rem;
+        }
+
+        .step-image {
+            height: 30vh;
+            width: auto;
+            border: 0.3rem solid black;
+        }
+
+        .steps-p {
+            border: 0.3rem solid black;
+            background-color: red;
+        }
+
+        #steps-div {
+            text-align: center;
+        }
+
+        .steps-grid {
+            display: inline-grid;
+            grid-template-columns: auto auto;
+        }
+
+        #step-funnel {
+            background-color: rgb(158, 16, 16, 0.7);
+            border: 5px solid black;
+        }
+
+        #step-entrance {
+            background-color: rgb(158, 16, 16);
+            border: 5px solid black;
+        }

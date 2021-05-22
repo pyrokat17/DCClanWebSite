@@ -1,0 +1,23 @@
+body {
+            margin: 2rem;
+        }
+
+        #dragon-image {
+            height: 25vh;
+            width: auto;
+        }
+
+        .wave-image {
+            width: 50vh;
+            height: auto;
+        }
+
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: auto auto;
+        }
+
+        .grid-item {
+            background: red;
+            border: 5px solid black;
+        }

@@ -1,0 +1,76 @@
+extends layout.pug
+block scripts
+    script(src="static/page-scripts/current-war.js", defer)
+block content
+    main
+        link(rel="stylesheet", href="static/style/current-war.css")
+
+        h2(id="h-attacks")
+        div(class="war-info")
+            table(class="overview-status")
+                thead(class="overview-status-thead")
+                    tr
+                        th Clan
+                        th Size
+                        th Attacks
+                        th 
+                            img(id="th-three-stars" src="static/images/three-stars.png")
+                        th Destruction
+                tbody(class="overview-status-tbody")
+                    tr(id="home-team")
+                        td(id="home-clan")
+                        td(id="home-size")
+                        td(id="home-attacks")
+                        td(id="home-stars")
+                        td(id="home-destruction")
+
+                    tr(id="opponent-team")
+                        td(id="opponent-clan")
+                        td(id="opponent-size")
+                        td(id="opponent-attacks")
+                        td(id="opponent-stars")
+                        td(id="opponent-destruction")
+                
+        div(id="attacks")
+            table(class="attacks-used")
+                thead
+                    tr
+                        th #
+                        th Attacker
+                        th Destruction
+                        th Stars
+                        th Defender
+                        th #
+                tbody(id="attacks-tbody")
+            
+            table(class="attacks-used-opponent")
+                thead
+                    tr
+                        th #
+                        th Attacker
+                        th Destruction
+                        th Stars
+                        th Defender
+                        th #
+                    
+                tbody(id="attacks-tbody-opponent")
+            
+        h2(id="h-pending-attacks") Pending Attacks
+        div(class="non-attackers")
+            table
+                thead
+                    tr
+                        th Name
+                        th Tag
+                        th Attacks Left
+                    
+                tbody(id="non-attackers-clan")
+            
+            table
+                thead
+                    tr
+                        th Name
+                        th Tag
+                        th Attacks Left
+                    
+                tbody(id="non-attackers-opponent")

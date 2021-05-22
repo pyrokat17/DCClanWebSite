@@ -1,0 +1,41 @@
+body {
+      margin: 2rem;
+    }
+.h2 {
+  margin-top: 5rem;
+}
+    .youtube-links {
+      text-align: center;
+      display: inline-grid;
+      background-color: red;
+      border: 0.3rem solid black;
+      width: 8rem;
+      height: 5rem;
+    }
+
+    .youtube-links a {
+      color: black;
+      font-weight: bold;
+    }
+
+    .youtube-links a:hover {
+      color: white;
+    }
+
+    .guides-links {
+      text-align: center;
+      display: inline-grid;
+      border: 0.3rem solid black;
+      background-color: red;
+      width: 8rem;
+      height: 5rem;
+    }
+
+    .guides-links a {
+      color: black;
+      font-weight: bold;
+    }
+
+    .guides-links a:hover {
+      color: white;
+    }
